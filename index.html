@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="container min-h-screen min-w-full bg-[url('images/image.png')] bg-center bg-cover px-20 pt-4">
+        <nav class="flex items-center">
+            <img class="w-44 cursor-pointer hover:scale-110 duration-300" src="images/logo.png" alt="logo">
+            <ul class="flex-1 text-center text-xl text-white">
+                <li class="list-none inline-block px-5"><a href="#"
+                        class="no-underline px-2 hover:text-yellow-400 hover:border-b-2 pb-2 border-yellow-400">Home</a>
+                </li>
+                <li class="list-none inline-block px-5"><a href="#"
+                        class="no-underline px-2 hover:text-yellow-400 hover:border-b-2 pb-2 border-yellow-400">About</a>
+                </li>
+                <li class="list-none inline-block px-5"><a href="#"
+                        class="no-underline px-2 hover:text-yellow-400 hover:border-b-2 pb-2 border-yellow-400">Features</a>
+                </li>
+                <li class="list-none inline-block px-5"><a href="#"
+                        class="no-underline px-2 hover:text-yellow-400 hover:border-b-2 pb-2 border-yellow-400">Contact</a>
+                </li>
+            </ul>
+            <img class="w-10 cursor-pointer hover:scale-125 duration-300" src="images/cart.png" alt="cart png">
+        </nav>
+
+        <div class="flex justify-between">
+            <div class="text-white mt-48 max-w-xl">
+                <h1 class="text-6xl font-semibold leading-normal">Groceries<br>delivery in <span class="font-light">15
+                        mins.</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis beatae alias unde quisquam, nemo
+                    fugiat!
+                </p>
+
+                <div class="mt-10 flex gap-4">
+                    <a class="px-3 py-2 inline-block font-semi-bold border-yellow-400 rounded-3xl bg-yellow-400 hover:bg-transparent transition-all duration-500 border-2 font-bold"
+                        href="#">Order Now</a>
+                    <a class="px-3 py-2 inline-block font-semi-bold group border-yellow-400 rounded-3xl bg-yellow-400 hover:bg-transparent transition-all duration-500 border-2 font-bold"
+                        href="#">Download App
+                        <span class="ml-2 transition-transform group-hover:translate-x-[20px]">&#10148</span>
+                    </a>
+
+                </div>
+            </div>
+            <img class="w-full xl:w-1/2" src="images/grocery-image.png">
+        </div>
+    </div>
+
+</body>
+
+</html>
